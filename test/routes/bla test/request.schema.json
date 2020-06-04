@@ -1,0 +1,12 @@
+{
+  "$id": "https://example.com/bla-test.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "bla test",
+  "type": "object",
+  "properties": {
+    "blaTest": {
+      "type": "string",
+      "description": "description of this prop"
+    }
+  }
+}

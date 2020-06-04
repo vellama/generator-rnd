@@ -1,0 +1,36 @@
+{
+  "name": "generator-ve",
+  "version": "0.0.1",
+  "description": "rnd on generators with yo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vellama/generator-rnd.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "author": "Vincent ELLAMA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vellama/generator-rnd/issues"
+  },
+  "homepage": "https://github.com/vellama/generator-rnd#readme",
+  "dependencies": {
+    "change-case": "4.1.1",
+    "yeoman-generator": "^4.10.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "2.34.0",
+    "@typescript-eslint/parser": "2.34.0",
+    "eslint": "6.8.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "prettier-config-standard": "1.0.1"
+  }
+}
