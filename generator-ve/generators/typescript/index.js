@@ -11,7 +11,7 @@ module.exports = class extends Generator {
         name: 'useTS',
         type: 'confirm',
         message: 'use typescript ?',
-        default: false
+        default: true
       }
     ])
   }
@@ -26,6 +26,7 @@ module.exports = class extends Generator {
   install() {
     if (this.answers.useTS) {
       this.yarnInstall(['typescript'], { dev: true, exact: true })
+      this.yarnInstall(['ts-node-dev'], { dev: true, exact: true })
     }
   }
 }

@@ -1,14 +1,19 @@
 {
-  "name": "generator-rnd-test",
+  "name": "app4",
   "version": "0.0.1",
-  "description": "repo to test generator-rnd",
-  "main": "src/index.js",
+  "description": "",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:prod": "tsc",
+    "build:dev": "tsc -w --sourceMap true",
+    "start:prod": "NODE_ENV=production node build/index.ts",
+    "start:dev": "NODE_ENV=development ts-node-dev src"
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "dotenv": "8.2.0"
+  },
   "devDependencies": {
+    "ts-node-dev": "1.0.0-pre.44",
     "typescript": "3.9.5"
   }
 }

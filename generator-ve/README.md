@@ -3,5 +3,5 @@
 ## usage
 
 ```sh
-yo ts:route
+yo ve:route
 ```

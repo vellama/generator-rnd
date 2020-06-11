@@ -1,0 +1,12 @@
+{
+  "$id": "https://example.com/get-users.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "get users",
+  "type": "object",
+  "properties": {
+    "getUsers": {
+      "type": "string",
+      "description": "description of this prop"
+    }
+  }
+}
