@@ -1,0 +1,12 @@
+{
+  "name": "<%= appName %>",
+  "version": "0.0.1",
+  "description": "<%= appDescription %>",
+  "private": true,
+  "scripts": {
+    "build:prod": "tsc",
+    "build:dev": "tsc -w --sourceMap true",
+    "start:prod": "NODE_ENV=production node build/index.ts",
+    "start:dev": "NODE_ENV=development ts-node-dev src"
+  }
+}
